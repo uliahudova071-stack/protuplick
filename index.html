@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя работа</title>
+    <style>
+        @media (min-width:900px) {
+
+
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .card {
+                max-width: 400px;
+            }
+
+            img {
+                float: left;
+                display: block;
+                height: 150px;
+                border-radius: 10px;
+            }
+            .img-st{
+                width: 300px;
+            height: auto;
+            border-radius: 100px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+        }
+
+        @media (min-width:100px) and (max-width:650px) {
+            .button {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                display: block;
+            }
+        }
+
+        @media (min-width:100px) and (max-width:950px) {
+            .card-container {
+                display: flex;
+                flex-direction: column;
+            }
+
+            img {
+                display: none;
+            }
+
+        }
+
+        .card {
+            border-radius: 20px;
+            border-style: dotted;
+            margin: 10px;
+            background-color: #f0c4fed9;
+            padding-left: 40px;
+
+        }
+
+        p {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: saddlebrown;
+        }
+
+        .button {
+            display: inline-block;
+            border-style: solid;
+            border-color: darkorange;
+            border-radius: 10px;
+            background-color: darkorange;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+            font-size: large;
+
+        }
+
+        .header {
+            display: block;
+            background-color: rgb(239, 177, 240);
+            height: 150px;
+            text-align: center;
+
+        }
+
+        h1 {
+            display: block;
+            align-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            color: black;
+        }
+        h3{
+             font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        li{
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="head.jpg" alt="главная питомец">
+        <h1>Мои домашние животный</h1>
+        <a class="button" href="https://t.me/brunettaj">Забрать чебурашек</a>
+
+    </div>
+    <div class="card-container">
+        <section class="card">
+            <h2>Первый питомец- Немецкая овчарка</h2>
+            <img src="smoldog.jpg" alt="собака"  class="image-st">
+            <p>В 2012 году у нас в семье появилась Немецкая овчарка, мы ее назвали Джесси,
+                 пока она была молодой мы с мамой много гуляли в парке, и там у собаки появился друг
+                  хаски, они вместе бегали, играли в догонялки, прыгали по сугробам. 
+                  На данный момент собаке уже 13 лет, у нее не такое хорошее здоровье и сейчас 
+                  она уже бабушка по этому много времени спит</p>
+            <section>
+                <h3>Плюсы моей собаки:</h3>
+                <ul>
+                    <li>Она очень терпиловая</li>
+                    <li>Умная, знает много команд. Понимает человеческий язык</li>
+                    <li>Ласковая</li>
+                    <li>Мягкая и пушистая</li>
+                </ul>
+                <img src="firstdog.jpg" alt="собака" class="image-st">
+            </section>
+            <section>
+                <h3>Минусы:</h3>
+                <ul>
+                    <li>Легко перевозбуждается</li>
+                    <li>Лает в машине, скулит</li>
+                    <li>Сильно линяет</li>
+                </ul>
+            </section>
+            <img src="second dog.jpg" alt="собака" class="image-st">
+        </section>
+        <section class="card">
+            <h2>Кошка Лиза</h2>
+            <img src="firstcat.jpg" alt="лизка">
+            <img src="firstcat1.jpg" alt="лизка">
+            <p>Кошку Лизку мы завели в 2022 году, она была очень игривая и дружелюбная,
+                 прожила она всего 3 года, по тому что когда мы ее привзли на дачу она сбежала 
+                 и скорее всего ее загрызли собаки</p>
+            <section>
+                <img src="secondcat.jpg" alt="лизка">
+                <h3>Плюсы кошки:</h3>
+                <ul>
+                    <li>Она прыгает на задних лапках как суслик.</li>
+                    <li>Смешно спит</li>
+                    <li>Очень ласковая </li>
+                    <li>Довольно сообразительна</li>
+                   
+                </ul>
+            </section>
+            <section>
+                <img src="thirdcat.jpg" alt="лизка">
+                <h3>Минусы Лизки :</h3>
+                <ul>
+                    <li>Сильно царапает.</li>
+                    <li>Сбежала</li>
+                    <li>Очень ласковая </li>
+                    <li>Довольно сообразительна</li>
+                   
+                </ul>
+            </section>
+        </section>
+        <section class="card">
+            <h2>Кошка Пушка</h2>
+            <p>Пушинка появилась в сентябре 2025 года, она еще маленькая, но очень спокойная 
+                и терпеливая.</p>
+            <section>
+                <img src="puchinka.jpg" alt="пушка">
+                <h3>Плюсы Пушки:</h3>
+                <ul>
+                    <li>Не выпускает когти, вообще не царапается</li>
+                    <li>Очень мягкая шерсть</li>
+                    <li>Ручная кошка</li>
+                  
+                </ul>
+            </section>
+            <section>
+                <h3>Минусы:</h3>
+                <ul>
+                    <li>Кусается</li>
+                    <li>Много ест</li>
+                    <li>Бесится ночами</li>
+                  
+                </ul>
+                
+            </section>
+        </section>
+        <section class="card">
+            <h2>Наш кот</h2>
+            <img src="kot.jpg" alt="кот">
+            <p>Этого кота зовут Барсик, Зевс, Зева, Зус, Финик, Пухляш, Пухля, Тушлях, 
+                Дурачок. Этот мальчик появился 2 недели назад, но мы с Парнем планировали 
+                завести корги, но не получилось, и я выпросила кота. (парень его тоже любит) </p>
+            <section>
+                <h3>Плюсы нашего сыночки:</h3>
+                <ul>
+                    <li>Спит с нами</li>
+                    <li>Смешно ест</li>
+                    <li>Любит сидеть на ручках </li>
+                    <li>Очень игривый.</li>
+                    <li>Какает в лоток, не гадит где попало</li>
+                </ul>
+                <img src="kot2.jpg" alt="кот">
+                <img src="kot3.jpg" alt="кот">
+            </section>
+            <section>
+                <img src="kot4.jpg" alt="кот">
+                <h3>Минусы:</h3>
+                <p>Их нет.
+                </p>
+            </section>
+        </section>
+        <section class="card">
+            <h2>Кошка Вика (сестра, она же чебурашка)</h2>
+            <img src="vika.jpg" alt="вика">
+            <img src="vika1.jpg" alt="вика">
+            <p>
+                Эта странная малекая девчка появилась в 2017 году, как хороший владелец 
+                я исправно её подбешиваю и называю Чебурашкой, выдрисировала хорошо, послушная 
+                и умная. Она предпочитает чтобы лаского ее называли кошкой, и очень злится 
+                если ее называть мышкой, но как подобает старшему ребенку, я исправно называю
+                 ее мышкой, и вообще как угодно, но не кошкой)))))
+            </p>
+            <section>
+                <img src="vika2.jpg" alt="вика">
+                <img src="vika3.jpg" alt="вика">
+                <h3>Плюсы:</h3>
+                <ul>
+                    <li>Приносит вещи, если поросить.</li>
+                    <li>С ней весело.</li>
+                    <li>Она смешная.</li>
+                    
+                </ul>
+            </section>
+            <section>
+                <img src="vika4.jpg" alt="вика">
+                <h3>Минусы:</h3>
+                 <ul>
+                    <li>Вредная.</li>
+                    <li>Обижулька.</li>
+                    <li>Разбрасывает вещи</li>
+                    <li>Заняла мою комнату когда я переехала от родителей и теперь меня не пускает, 
+                        хотя номинально это общая комната</li>
+            </section>
+        </section>
+        <section class="card">
+            <h2>Кролик Настя (сетра, тоже чебурашка)</h2>
+            <img src="nas.jpg" alt="настя">
+            <img src="nas1.jpg" alt="настя">
+            <p>Этот микрочеловек появился в 2024 году, Я предлагала назвать ее Даздраперма,
+                 Феврония, Фёкла, Цветана, Кукуцаполь, Лапанальда, Первосрака. НО! Родители
+                  почему-то они не захотели ее так называть... А еще как странный факт,
+                   некоторые люди думают что я ее мама, но в принципе с разницой 18 лет,
+                    это не очень удивляет 
+                 </p>
+            <section>
+                <img src="nas2.jpg" alt="настя">
+                <img src="nas3.jpg" alt="настя">
+                <h3>Плюсы:</h3>
+                <ul>
+                    <li>Смешная</li>
+                    <li>Веселая.</li>
+                    <li>Мелкая.</li>            
+                        
+                </ul>
+            </section>
+            <section>
+                <img src="nas4.jpg" alt="настя">
+                <img src="nas5.jpg" alt="настя">
+                <h3>Минусы:</h3>
+                  <ul>
+                    <li>Очень активная</li>
+                    <li>Вредная.</li>
+                    <li>Скандалистка.</li>
+                
+                </ul>
+                <img src="nas6.jpg" alt="настя">
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>
